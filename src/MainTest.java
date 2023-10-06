@@ -3,7 +3,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MainTest {
 
     @org.junit.jupiter.api.Test
-    void calculateGrade() {
+    void grade() {
         assertEquals('A', Main.calculateGrade(90));
         assertEquals('B', Main.calculateGrade(80));
         assertEquals('C', Main.calculateGrade(79));
